@@ -1,0 +1,67 @@
+.mentor-details {
+    border: 1px solid rgba(196, 196, 196, 1);
+    padding: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    height: 1300px;
+}
+
+.details {
+
+}
+
+.details__pay {
+    margin-bottom: 20px;
+}
+
+.details__pay span {
+    color: green;
+}
+
+.details__resume a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.teacher__img {
+    width: 12px;
+}
+
+.details-margin {
+    margin-left: 34px;
+}
+
+.details-margin h4 {
+    margin-left: 10px;
+}
+
+.little {
+    margin-left: 112px;
+}
+
+.details__text {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(115, 115, 115, 1);
+}
+
+.another__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.41px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.details__menu {
+    margin-top: 30px;
+}
+
+.details__menu li {
+    list-style-type: disc;
+    margin-left: 26px;
+    margin-bottom: 6px;
+}
+
+.details__skills {
+    margin-top: 20px;
+}

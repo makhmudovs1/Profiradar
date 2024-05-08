@@ -1,0 +1,137 @@
+.search {
+    padding: 50px 0;
+}
+
+.search-head {
+    text-align: center;
+}
+
+.profession {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.profession-users {
+    margin: 40px 0;
+    display: flex;
+}
+
+.input-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(196, 196, 196, 1);
+    margin-right: 100px;
+}
+
+.search__title {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.search__text span {
+    color: rgba(255, 0, 122, 1);
+}
+
+.search__text {
+    font-size: 19px;
+    line-height: 29.11px;
+    color: rgba(119, 119, 119, 1);
+}
+
+.search__title span {
+    color: rgba(255, 0, 122, 1);
+}
+
+.search__input {
+    width: 415px;
+    border: none;
+}
+
+.search__input::placeholder{
+    font-size: 17px;
+    color: rgba(115, 115, 115, 1);
+    font-weight: 500;
+}
+
+.search__input:focus {
+    outline: none;
+    border: none;
+}
+
+.search__btn {
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #000;
+    border-radius: 6px;
+    padding: 13px 32px;
+}
+
+.filter span {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(196, 196, 196, 1);
+}
+
+.search__button {
+    outline: none;
+    cursor: pointer;
+    background-color: rgba(255, 0, 122, 1);
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 600;
+    padding: 16px 200px;
+    margin: 30px 0;
+}
+
+.companies__links {
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.companies__links img {
+    width: 100px;
+    height: 50px;
+}
+
+
+.search__companies {
+    overflow-x: auto; /* Включаем горизонтальную прокрутку */
+    white-space: nowrap; /* Отключаем перенос строк */
+}
+
+.search__count {
+    transition: opacity 0.5s ease-in-out; /* Анимация для плавного появления и исчезновения */
+}
+
+.animate {
+    opacity: 0; /* Скрыть текст */
+}
+
+@keyframes appear {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.search-dropdowns {
+    margin: 20px 0;
+}
+
+.dropdown-margin {
+    margin-right: 10px;
+}

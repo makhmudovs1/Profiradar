@@ -1,0 +1,134 @@
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); /* Черный полупрозрачный фон */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 26px 5px;
+    border: 1px solid #888;
+    width: 492px;
+    height: 732px;
+    border-radius: 10px;
+}
+
+.modal-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input, select {
+    padding: 17px 17px;
+    border: 1px solid rgba(115, 115, 115, 1);
+    border-radius: 5px;
+    margin: 0 auto 10px;
+    width: 360px;
+}
+
+.form__input {
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgba(255, 0, 122, 1);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-form textarea {
+    resize: none;
+    padding: 10px 23px;
+    font-size: 18px;
+    width: 345px;
+    height: 100px;
+    margin: auto;
+}
+
+/* Стилизация основного селекта */
+select {
+    /* Убираем стандартные стили браузера */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Задаем пользовательские стили */
+    padding: 10px;
+    border: 1px solid rgba(115, 115, 115, 1);
+    border-radius: 5px;
+    background-color: #fff;
+    color: rgba(153, 153, 153, 1);
+    font-size: 18px;
+    width: 395px;
+}
+
+/* Стилизация стрелки селекта */
+select::after {
+    content: '\25BC'; /* Символ стрелки вниз */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    background-color: black;
+    transform: translateY(-50%);
+    pointer-events: none; /* Стрелка не реагирует на события */
+}
+
+/* Стилизация опций в выпадающем списке */
+select option {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Стилизация при наведении на опцию в выпадающем списке */
+select option:hover {
+    background-color: #f0f0f0;
+}
+
+.form__text {
+    text-align: center;
+    font-size: 20px;
+}
+
+.form__text span {
+    color: rgba(255, 0, 122, 1);
+}
+
+.form__btn {
+    width: 395px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 20px 0;
+}

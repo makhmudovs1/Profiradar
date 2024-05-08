@@ -1,0 +1,14 @@
+.tab-button.active {
+    background-color: #FF007A;
+    color: #fff;
+}
+
+.tab-button {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 17px 14px;
+    border: 1px solid #FF007A;
+    border-radius: 10px;
+    color: #FF007A;
+    background: #fff;
+}

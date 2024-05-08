@@ -1,0 +1,105 @@
+
+.lists {
+    border: 1px solid rgba(196, 196, 196, 1);
+    width: 570px;
+    height: 400px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.mentor-list {
+    max-height: 1400px;
+    width: 4600px;
+    overflow-y: auto;
+
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    border: 2px solid rgba(217, 217, 217, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.range {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    border: 2px solid rgba(217, 217, 217, 1);
+}
+
+.teacher__name {
+    font-size: 23px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+}
+
+.teacher__info {
+    margin-left: 20px;
+}
+
+.teacher__job {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.teacher__location {
+    color: rgba(115, 115, 115, 1);
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.teacher__text {
+    color: rgba(139, 139, 139, 1);
+    line-height: 19px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 39px;
+}
+
+.teacher__price {
+    color: rgba(0, 176, 7, 1);
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.teacher__skills {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 11px;
+}
+
+.skills__link {
+    background-color: rgba(235, 235, 235, 1);
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.teacher__btn {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: rgba(255, 0, 122, 1);
+    border-radius: 10px;
+    display: inline-block;
+    width: 205px;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+
+.selected .circle, .selected .range {
+    border-color: rgba(255, 0, 122, 1);
+}

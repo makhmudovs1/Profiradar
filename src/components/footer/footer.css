@@ -1,0 +1,25 @@
+.footer {
+    padding: 150px 0 0;
+}
+
+.invest-contacts {
+    margin-left: auto;
+}
+
+.contacts__link {
+    margin-right: 45px;
+}
+
+.invest img {
+    margin-left: 10px;
+}
+
+.invest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.invest__right {
+    margin-right: 45px;
+}

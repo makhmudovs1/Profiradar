@@ -1,0 +1,44 @@
+.vacancies {
+    width: 450px;
+    border: 1px solid #E2E2E2;
+    border-radius: 24px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.vacancies__info {
+    background: #F6F6F6;
+    padding: 17px;
+    border-radius: 24px;
+}
+
+.vacancies__info h2 {
+    padding-top: 10px;
+}
+
+.vacancies__info p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.vacancies__yesterday {
+    margin-left: auto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+
+.vacancies__country {
+    margin-top: 20px;
+}
+
+.vacancies__country img {
+    margin: 0 5px 0 10px;
+}
+
+.vacancies__country span {
+    color: #A0A0A0;
+    font-size: 16px;
+    font-weight: 400;
+}
